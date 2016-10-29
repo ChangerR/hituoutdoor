@@ -1,0 +1,29 @@
+{
+  "name": "hitu",
+  "version": "1.0.0",
+  "description": "hitu site",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ChangerR/hitu.git"
+  },
+  "keywords": [
+    "site",
+    "sale"
+  ],
+  "author": "Changer",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ChangerR/hitu/issues"
+  },
+  "homepage": "https://github.com/ChangerR/hitu#readme"
+}

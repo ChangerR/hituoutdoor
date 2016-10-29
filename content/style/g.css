@@ -1,0 +1,31 @@
+body {
+	position:relative;
+	margin:0;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-size:1.2rem;
+}
+
+.header {
+	background-color:rgba(34, 30, 27, 0.29);
+	padding:12px 0;
+}
+.col25 {
+	width:25%;
+}
+.header-wrapper {
+	overflow:hidden;
+	height:auto;
+	width:80%;
+	margin:0 auto;
+}
+.header-left {
+	float:left;
+}
+.header-right {
+	float:right;
+}
+.logo {
+	float:left;
+}
+
