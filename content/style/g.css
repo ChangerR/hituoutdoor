@@ -101,13 +101,13 @@ img {
 	content: "\f02d";	
 }
 .fa-info:before {
-  content: "\f05a";
+	content: "\f05a";
 }
 .fa-phone:before {
-  content: "\f095";
+	content: "\f095";
 }
 .fa-user:before {
-  content: "\f007";
+	content: "\f007";
 }
 
 .clear-a {
@@ -132,6 +132,7 @@ img {
 .banner {
 	width:100%;
 	overflow:hidden;
+	position:relative;
 }
 .banner-img {
 	position:relative;
@@ -142,8 +143,42 @@ img {
 	overflow:hidden;
 	left:0;
 }
+.banner-img > li {
+	padding:0;
+	margin:0;
+	line-height:0;
+}
 .imgwapper {
 	width:100%;
 	height:auto;
 }
-
+.banner-nav {
+	position:absolute;
+	bottom:10%;
+	left:0;
+	right:0;
+	margin:auto;
+	list-style-type:none;
+	text-align:center;
+}
+.banner-nav > li {
+	display:inline;
+	margin:0 10px;
+}
+.banner li a {
+	width:60px;
+	height:5px;
+	background-color:#eeefff;
+	margin:0;
+	display:inline-block;
+}
+.products {
+	background-color:#05e8f3;
+	padding-top:0.7em;
+}
+.products > h1 {
+	font-size:30px;
+	color:white;
+	text-align:center;
+	margin-top:0;
+}
